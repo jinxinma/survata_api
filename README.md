@@ -11,7 +11,7 @@ I built a simple API where user can use `curl` to make `GET` requests and retrie
 
 ### How to run this API
 1. Clone the repository to local machine
-2. Use `cd` in terminal to get to the directory where the downloaded scripts sit
+2. Use `cd` in terminal to get to the folder where the downloaded scripts sit
 3. Open `user_definition.py` and change `input_path` to the `data` directory. For example, `input_path = '/Users/jinxin/survata_api/data/'`. Also, make sure `file_name = take_home.csv`
 4. In terminal, run `python survata_api.py` and remember the server address, e.g. `http://127.0.0.1:5000/`
 5. Open a new terminal to make `GET` requests using `curl`. The returned data will be in JSON format. Example commands includes:
@@ -22,7 +22,7 @@ I built a simple API where user can use `curl` to make `GET` requests and retrie
   * To return the number of `exposure id` for user, you can do something like `curl "http://127.0.0.1:5000/query?id=1a&id=3c&exp_id=405947524"`
   
 ### How to test API
-1. In `user_definition.py`, change `file_name` from `take_home.csv` to `test_file.csv`
+1. In `user_definition.py`, change the value of `file_name` from `take_home.csv` to `test_file.csv`
 2. In terminal, spin up server using `python survata_api.py`
 3. Open a new terminal and run `python api_test.py`
 
