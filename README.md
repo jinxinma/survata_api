@@ -17,5 +17,5 @@ I built a simple API where user can use `curl` to make `GET` requests and retrie
 5. Open a new terminal to make `GET` requests using `curl`. Example URL includes:
   * `curl "http://127.0.0.1:5000/"` -> this brings user to the homepage
   * `curl "http://127.0.0.1:5000/head"` -> this returns the first row of data
-  * `curl "http://127.0.0.1:5000/query?id=1&id=2&col=Gender"` -> this returns the gender information for id 1 and 2. You can change `id` value to the actual Survata interview ID's and change `col` value to a column name, for example `col=Country` will return country information
+  * `curl "http://127.0.0.1:5000/query?id=1&id=2&col=Gender"` -> this returns the gender information for id /1 & /2. You can change `id` value to the actual Survata interview ID's and change `col` value to a column name, for example `col=Country` will return country information
 
